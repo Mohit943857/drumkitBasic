@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css" href="index.css">
+<script type="text/javascript" src="index.js"></script>
+<head>
+	<title>Drum kit </title>
+</head>
+<body>
+	<div class="keys">
+		<div class="key" data-key="65">
+			<kbd>A</kbd>
+			<span class="sound">clap</span>
+		</div>
+		<div class="key" data-key="83">
+			<kbd>S</kbd>
+			<span class="sound">hihat</span>
+		</div>
+		<div class="key" data-key="68">
+			<kbd>D</kbd>
+			<span class="sound">kick</span>
+		</div>
+		<div class="key" data-key="70">
+			<kbd>F</kbd>
+			<span class="sound">openhat</span>
+		</div>
+		<div class="key" data-key="74">
+			<kbd>J</kbd>
+			<span class="sound">boom</span>
+		</div>
+		<div class="key" data-key="75"> 
+			<kbd>K</kbd>
+			<span class="sound">ride</span>
+		</div>
+	</div>
+	<audio data-key="65" src="clap.wav"></audio>
+	<audio data-key="83" src="hihat.wav"></audio>
+	<audio data-key="68" src="kick.wav"></audio>
+	<audio data-key="70" src="openhat.wav"></audio>
+	<audio data-key="74" src="boom.wav"></audio>
+	<audio data-key="75" src="ride.wav"></audio>
+</body>
+</html>
